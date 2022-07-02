@@ -1,0 +1,88 @@
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+main h1 {
+  margin: 0 10px;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 65px;
+}
+
+main h2 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid gray;
+  font-family: "Special Elite", cursive;
+}
+
+main h3 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid lightgray;
+  font-family: "Special Elite", cursive;
+}
+
+main p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+}
+
+.bg-primary {
+  background-color: #775f47;
+}
+
+.group img {
+  width: 100%;
+}
+
+/* Groups & Items */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* Groups & Items (Desktop) */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+/* original code */
+
+/*
+@media all and (min-width: 800px) {
+  section,
+  h1 {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+img {
+  width: 100%;
+}
+*/
